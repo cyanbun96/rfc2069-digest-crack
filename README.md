@@ -4,7 +4,7 @@ Legacy digest authentication password bruteforce. Requires an intercepted authen
 
 # Compilation
 
-> gcc main.c -lcrypto
+```gcc main.c -lcrypto```
 
 Depends on OpenSSL/evp.h for md5 hashing.
 
