@@ -1,0 +1,6 @@
+user=admin
+realm=DCS-2132LB1
+method=DESCRIBE
+uri=rtsp://192.168.1.205:554/live1.sdp
+nonce=0fba0c387cfc24262e910944d035eaaf
+response=096a5a7f66e0f96984d3a5beb317ed28
