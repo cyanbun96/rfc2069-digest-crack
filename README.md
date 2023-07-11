@@ -10,7 +10,8 @@ Depends on OpenSSL/evp.h for md5 hashing.
 
 # Usage
 
-```./program details.txt passwords.txt [-vq]
+```
+./program details.txt passwords.txt [-vq]
 -v prints every attempt, -q hides progress messages
 detail file contents:
 user=%s\n
@@ -27,7 +28,8 @@ passwords.txt should have one plaintext password per line.
 
 Example TCP packet going from a PC to an IP Camera, captured with Wireshark:
 
-```DESCRIBE rtsp://192.168.1.205:554/live1.sdp RTSP/1.0
+```
+DESCRIBE rtsp://192.168.1.205:554/live1.sdp RTSP/1.0
 Accept: application/sdp
 CSeq: 3
 User-Agent: libmpv
